@@ -13,6 +13,8 @@
 
 ![Vivek N's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=proviveknayan&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&area=true&hide_border=true)
 
+<h3 align="center">Connect With Me: <a href="https://linkedin.com/in/viveknayan" target="_blank"><img align="center" src="./images/linkedin.svg" alt="Vivek Nayan" height="30" width="40" /></a></h1>
+
 <!--
 **proviveknayan/proviveknayan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
