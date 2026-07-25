@@ -11,7 +11,7 @@
   <a href="https://github.com/proviveknayan"><img alt="Vivek Nayan's Top Languages" src="https://github-stats.vercel.app/api/top-langs/?username=proviveknayan&locale=en&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/></a>
 </p>
 
-![Vivek Nayan's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=proviveknayan&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&area=true&hide_border=true)
+![Vivek Nayan's GitHub Activity Graph](https://github-activity-graph.vercel.app/graph?username=proviveknayan&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&area=true&hide_border=true)
 
 <h3 align="center">
 Connect With Me 👉 <a href="https://linkedin.com/in/viveknayan" target="_blank"><img align="center" src="./images/linkedin.svg" alt="Vivek Nayan" height="30" width="40"/></a>
