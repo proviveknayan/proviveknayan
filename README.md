@@ -14,8 +14,8 @@
 ![Vivek Nayan's GitHub Activity Graph](https://github-activity-graph.vercel.app/graph?username=proviveknayan&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&area=true&hide_border=true)
 
 <!-- START_DAILY_TIL -->
-## 🔬 Daily Curated arXiv & Engineering Pulse
-*Automated intelligence snapshot for **2026-11-04** | Polymath Architecture*
+## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
+*Intelligence snapshot for **2026-11-04***
 
 ### 1. [DreamX: Video Diffusion Model is a Universal Latent Action Learner](http://arxiv.org/abs/2611.05377v1)
 - **Authors:** Jisoo Kim, Chaehyun Kim, Junsu Kim et al. | **Published:** `2026-11-03`
@@ -29,7 +29,7 @@
 - **Authors:** Austin Tsai, Saurav Nanda, Ganapathy Parthasarathy et al. | **Published:** `2026-11-03`
 - **Core Finding:** Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher'...
 
-<sub>Daily archival logs stored in [`data/til/`](./data/til/). Automated via GitHub Actions.</sub>
+<sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
 
 ---

@@ -79,8 +79,8 @@ def fetch_arxiv_preprints():
 def build_markdown_section(today_str, papers):
     lines = [
         "<!-- START_DAILY_TIL -->",
-        "## 🔬 Daily Curated arXiv & Engineering Pulse",
-        f"*Automated intelligence snapshot for **{today_str}** | Polymath Architecture*",
+        "## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)",
+        f"*Intelligence snapshot for **{today_str}***",
         "",
     ]
 
@@ -93,7 +93,7 @@ def build_markdown_section(today_str, papers):
             lines.append(f"- **Core Finding:** {paper['summary']}")
             lines.append("")
 
-    lines.append(f"<sub>Daily archival logs stored in [`data/til/`](./data/til/). Automated via GitHub Actions.</sub>")
+    lines.append(f"<sub>Daily logs stored in [`data/til/`](./data/til/).</sub>")
     lines.append("<!-- END_DAILY_TIL -->")
     return "\n".join(lines)
 
@@ -102,7 +102,7 @@ def write_daily_til_archive(today_str, papers):
     TIL_DIR.mkdir(parents=True, exist_ok=True)
     file_path = TIL_DIR / f"{today_str}.md"
     content = [
-        f"# Daily Curated arXiv & Engineering Pulse: {today_str}",
+        f"# Daily TIL (Curated arXiv & Engineering Pulse): {today_str}",
         "",
         "## Highlights",
         "",
@@ -115,7 +115,7 @@ def write_daily_til_archive(today_str, papers):
         content.append("")
 
     file_path.write_text("\n".join(content), encoding="utf-8")
-    print(f"Archived daily TIL to {file_path}")
+    print(f"Writing daily TIL to {file_path}")
 
 
 def update_readme(new_section):
