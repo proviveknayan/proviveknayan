@@ -1,0 +1,78 @@
+name: Daily arXiv & TIL Curation
+
+on:
+  schedule:
+    # Runs every day at 04:30 UTC (10:00 AM IST)
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  curate-and-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Configure Git Identity
+        run: |
+          git config user.name "proviveknayan"
+          git config user.email "proviveknayan@gmail.com"
+
+      - name: Run Curation & Update Profile
+        run: |
+          python scripts/update_curation.py
+
+      - name: Check for Changes
+        id: git_status
+        run: |
+          if git diff --quiet README.md data/; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request with Co-Author
+        if: steps.git_status.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          BRANCH_NAME="curation/$TODAY"
+          
+          git checkout -B "$BRANCH_NAME"
+          git add README.md data/
+          
+          git commit -m "feat(til): daily curated arXiv & engineering pulse for $TODAY" \
+                     -m "Automated daily synthesis of high-impact AI/systems preprints." \
+                     -m "Co-authored-by: Knot Impact <hello@knotimpact.org>"
+          
+          git push origin "$BRANCH_NAME" --force
+          
+          PR_BODY=$(cat <<'EOF'
+          Automated daily synthesis of high-impact AI/systems preprints.
+          
+          Co-authored-by: Knot Impact <hello@knotimpact.org>
+          EOF
+          )
+          
+          PR_URL=$(gh pr create \
+            --title "feat(til): daily curated arXiv snapshot ($TODAY)" \
+            --body "$PR_BODY" \
+            --base main \
+            --head "$BRANCH_NAME")
+          
+          echo "Created PR: $PR_URL"
+          
+          # Auto-merge PR immediately (squash merge increments Pull Shark and retains co-author)
+          gh pr merge "$PR_URL" --squash --delete-branch --admin || gh pr merge "$PR_URL" --squash --delete-branch
