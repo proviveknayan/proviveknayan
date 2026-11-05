@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-04***
+*Intelligence snapshot for **2026-11-05***
 
-### 1. [DreamX: Video Diffusion Model is a Universal Latent Action Learner](http://arxiv.org/abs/2611.05377v1)
-- **Authors:** Jisoo Kim, Chaehyun Kim, Junsu Kim et al. | **Published:** `2026-11-03`
-- **Core Finding:** Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but t...
+### 1. [A Framework for Context Enrichment and Selective Robustness in LLM Social Agents](http://arxiv.org/abs/2611.06914v1)
+- **Authors:** Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel | **Published:** `2026-11-04`
+- **Core Finding:** Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt ...
 
-### 2. [From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence](http://arxiv.org/abs/2611.05376v1)
-- **Authors:** Hao Fei | **Published:** `2026-11-03`
-- **Core Finding:** For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what the...
+### 2. [FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors](http://arxiv.org/abs/2611.06912v1)
+- **Authors:** Nicolas Tricard, Linzheng Wang, Jason Chen et al. | **Published:** `2026-11-04`
+- **Core Finding:** Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench eval...
 
-### 3. [Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization](http://arxiv.org/abs/2611.05373v1)
-- **Authors:** Austin Tsai, Saurav Nanda, Ganapathy Parthasarathy et al. | **Published:** `2026-11-03`
-- **Core Finding:** Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher'...
+### 3. [BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories](http://arxiv.org/abs/2611.06911v1)
+- **Authors:** Fei Lin, Tengchao Zhang, Ziyang Gong et al. | **Published:** `2026-11-04`
+- **Core Finding:** Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large La...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
