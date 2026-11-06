@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-05***
+*Intelligence snapshot for **2026-11-06***
 
-### 1. [A Framework for Context Enrichment and Selective Robustness in LLM Social Agents](http://arxiv.org/abs/2611.06914v1)
-- **Authors:** Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel | **Published:** `2026-11-04`
-- **Core Finding:** Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt ...
+### 1. [User Embeddings are Superpositions of Interpretable Behavioral Modes](http://arxiv.org/abs/2611.08487v1)
+- **Authors:** Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen et al. | **Published:** `2026-11-05`
+- **Core Finding:** User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we...
 
-### 2. [FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors](http://arxiv.org/abs/2611.06912v1)
-- **Authors:** Nicolas Tricard, Linzheng Wang, Jason Chen et al. | **Published:** `2026-11-04`
-- **Core Finding:** Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench eval...
+### 2. [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](http://arxiv.org/abs/2611.08483v1)
+- **Authors:** Qile Jiang, George Em Karniadakis | **Published:** `2026-11-05`
+- **Core Finding:** LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for ...
 
-### 3. [BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories](http://arxiv.org/abs/2611.06911v1)
-- **Authors:** Fei Lin, Tengchao Zhang, Ziyang Gong et al. | **Published:** `2026-11-04`
-- **Core Finding:** Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large La...
+### 3. [Scientist World: Grow a Research World for AI-Scientists](http://arxiv.org/abs/2611.08478v1)
+- **Authors:** Taiming Lu, Sachin Konan, Zhuang Liu | **Published:** `2026-11-05`
+- **Core Finding:** AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist Worl...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
