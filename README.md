@@ -15,7 +15,7 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-06***
+*Intelligence snapshot for **2026-11-07***
 
 ### 1. [User Embeddings are Superpositions of Interpretable Behavioral Modes](http://arxiv.org/abs/2611.08487v1)
 - **Authors:** Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen et al. | **Published:** `2026-11-05`
