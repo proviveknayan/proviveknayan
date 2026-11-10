@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-08***
+*Intelligence snapshot for **2026-11-10***
 
-### 1. [User Embeddings are Superpositions of Interpretable Behavioral Modes](http://arxiv.org/abs/2611.08487v1)
-- **Authors:** Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen et al. | **Published:** `2026-11-05`
-- **Core Finding:** User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we...
+### 1. [Guiding Data Allocation for Robust Subpopulation Generalization](http://arxiv.org/abs/2611.12884v1)
+- **Authors:** Zhaoying Pan, Yipei Wang, Shenyu Lu et al. | **Published:** `2026-11-09`
+- **Core Finding:** Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not alw...
 
-### 2. [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](http://arxiv.org/abs/2611.08483v1)
-- **Authors:** Qile Jiang, George Em Karniadakis | **Published:** `2026-11-05`
-- **Core Finding:** LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for ...
+### 2. [Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics](http://arxiv.org/abs/2611.12880v1)
+- **Authors:** Majdi Hassan, Marta Skreta, Dominique Beaini et al. | **Published:** `2026-11-09`
+- **Core Finding:** Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require mi...
 
-### 3. [Scientist World: Grow a Research World for AI-Scientists](http://arxiv.org/abs/2611.08478v1)
-- **Authors:** Taiming Lu, Sachin Konan, Zhuang Liu | **Published:** `2026-11-05`
-- **Core Finding:** AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist Worl...
+### 3. [Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels](http://arxiv.org/abs/2611.12878v1)
+- **Authors:** Sreejeet Maity, Aritra Mitra | **Published:** `2026-11-09`
+- **Core Finding:** Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent interacting with an unknown environment (modeled as a Markov Decision Process) ...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
