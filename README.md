@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-10***
+*Intelligence snapshot for **2026-11-11***
 
-### 1. [Guiding Data Allocation for Robust Subpopulation Generalization](http://arxiv.org/abs/2611.12884v1)
-- **Authors:** Zhaoying Pan, Yipei Wang, Shenyu Lu et al. | **Published:** `2026-11-09`
-- **Core Finding:** Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not alw...
+### 1. [Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training](http://arxiv.org/abs/2611.14519v1)
+- **Authors:** Emre Kutlusan, Yongmin Li | **Published:** `2026-11-10`
+- **Core Finding:** Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task...
 
-### 2. [Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics](http://arxiv.org/abs/2611.12880v1)
-- **Authors:** Majdi Hassan, Marta Skreta, Dominique Beaini et al. | **Published:** `2026-11-09`
-- **Core Finding:** Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require mi...
+### 2. [Toward Foundation Detection Models via Example-Based Grounding in EM-DETR](http://arxiv.org/abs/2611.14518v1)
+- **Authors:** Sheethal Bhat, Bogdan Georgescu, Awais Mansoor et al. | **Published:** `2026-11-10`
+- **Core Finding:** DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dard...
 
-### 3. [Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels](http://arxiv.org/abs/2611.12878v1)
-- **Authors:** Sreejeet Maity, Aritra Mitra | **Published:** `2026-11-09`
-- **Core Finding:** Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent interacting with an unknown environment (modeled as a Markov Decision Process) ...
+### 3. [TorchCurves: Differentiable Parametric Curves](http://arxiv.org/abs/2611.14516v1)
+- **Authors:** Alex Shtoff | **Published:** `2026-11-10`
+- **Core Finding:** We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
