@@ -15,7 +15,7 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-11***
+*Intelligence snapshot for **2026-11-12***
 
 ### 1. [Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training](http://arxiv.org/abs/2611.14519v1)
 - **Authors:** Emre Kutlusan, Yongmin Li | **Published:** `2026-11-10`
