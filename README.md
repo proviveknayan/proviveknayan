@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-12***
+*Intelligence snapshot for **2026-11-13***
 
-### 1. [Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training](http://arxiv.org/abs/2611.14519v1)
-- **Authors:** Emre Kutlusan, Yongmin Li | **Published:** `2026-11-10`
-- **Core Finding:** Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task...
+### 1. [Unbundling Multimodal Vision Encoding](http://arxiv.org/abs/2611.17334v1)
+- **Authors:** Ellis Brown, Chris Hoang, Shengyi Qian et al. | **Published:** `2026-11-12`
+- **Core Finding:** How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design ch...
 
-### 2. [Toward Foundation Detection Models via Example-Based Grounding in EM-DETR](http://arxiv.org/abs/2611.14518v1)
-- **Authors:** Sheethal Bhat, Bogdan Georgescu, Awais Mansoor et al. | **Published:** `2026-11-10`
-- **Core Finding:** DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dard...
+### 2. [ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research](http://arxiv.org/abs/2611.17332v1)
+- **Authors:** Jie Wang, Tong Zhu, JiaHao Kuang et al. | **Published:** `2026-11-12`
+- **Core Finding:** Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public ...
 
-### 3. [TorchCurves: Differentiable Parametric Curves](http://arxiv.org/abs/2611.14516v1)
-- **Authors:** Alex Shtoff | **Published:** `2026-11-10`
-- **Core Finding:** We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs...
+### 3. [Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation](http://arxiv.org/abs/2611.17329v1)
+- **Authors:** Zeynep Yıldız, Satchit Chatterji, Ercan Atam et al. | **Published:** `2026-11-12`
+- **Core Finding:** Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compl...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
