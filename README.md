@@ -15,7 +15,7 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-13***
+*Intelligence snapshot for **2026-11-14***
 
 ### 1. [Unbundling Multimodal Vision Encoding](http://arxiv.org/abs/2611.17334v1)
 - **Authors:** Ellis Brown, Chris Hoang, Shengyi Qian et al. | **Published:** `2026-11-12`
