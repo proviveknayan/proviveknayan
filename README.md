@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-15***
+*Intelligence snapshot for **2026-11-16***
 
-### 1. [Unbundling Multimodal Vision Encoding](http://arxiv.org/abs/2611.17334v1)
-- **Authors:** Ellis Brown, Chris Hoang, Shengyi Qian et al. | **Published:** `2026-11-12`
-- **Core Finding:** How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design ch...
+### 1. [Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion](http://arxiv.org/abs/2611.18563v1)
+- **Authors:** Daniel Grimm, Kyra Jongman, Renato Cordeiro Ferreira et al. | **Published:** `2026-11-13`
+- **Core Finding:** Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despi...
 
-### 2. [ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research](http://arxiv.org/abs/2611.17332v1)
-- **Authors:** Jie Wang, Tong Zhu, JiaHao Kuang et al. | **Published:** `2026-11-12`
-- **Core Finding:** Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public ...
+### 2. [FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices](http://arxiv.org/abs/2611.18561v1)
+- **Authors:** Jonathan D. McCart, Pranav I. Deevi, Mehdi Azabou et al. | **Published:** `2026-11-13`
+- **Core Finding:** Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to ach...
 
-### 3. [Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation](http://arxiv.org/abs/2611.17329v1)
-- **Authors:** Zeynep Yıldız, Satchit Chatterji, Ercan Atam et al. | **Published:** `2026-11-12`
-- **Core Finding:** Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compl...
+### 3. [Training Reasoning Models in Simulation to Natively Use Real Robots](http://arxiv.org/abs/2611.18562v1)
+- **Authors:** Jiaming Tang, Zhuoyang Zhang, Junxian Guo et al. | **Published:** `2026-11-13`
+- **Core Finding:** Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially les...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
