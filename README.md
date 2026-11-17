@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-16***
+*Intelligence snapshot for **2026-11-17***
 
-### 1. [Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion](http://arxiv.org/abs/2611.18563v1)
-- **Authors:** Daniel Grimm, Kyra Jongman, Renato Cordeiro Ferreira et al. | **Published:** `2026-11-13`
-- **Core Finding:** Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despi...
+### 1. [Latent Lattice Language Models](http://arxiv.org/abs/2611.21608v1)
+- **Authors:** Shivam Duggal, Zongze Wu, William T. Freeman et al. | **Published:** `2026-11-16`
+- **Core Finding:** Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states ...
 
-### 2. [FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices](http://arxiv.org/abs/2611.18561v1)
-- **Authors:** Jonathan D. McCart, Pranav I. Deevi, Mehdi Azabou et al. | **Published:** `2026-11-13`
-- **Core Finding:** Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to ach...
+### 2. [ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization](http://arxiv.org/abs/2611.21605v1)
+- **Authors:** Huawei Lin, Jinting Liu, Tongyan Wang et al. | **Published:** `2026-11-16`
+- **Core Finding:** Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess...
 
-### 3. [Training Reasoning Models in Simulation to Natively Use Real Robots](http://arxiv.org/abs/2611.18562v1)
-- **Authors:** Jiaming Tang, Zhuoyang Zhang, Junxian Guo et al. | **Published:** `2026-11-13`
-- **Core Finding:** Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially les...
+### 3. [Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction](http://arxiv.org/abs/2611.21602v1)
+- **Authors:** Ilia Azizi, Frederick Iat-Hin Tam, Marc-Olivier Boldi et al. | **Published:** `2026-11-16`
+- **Core Finding:** The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and ...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
