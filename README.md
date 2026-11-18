@@ -15,20 +15,9 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-17***
+*Intelligence snapshot for **2026-11-18***
 
-### 1. [Latent Lattice Language Models](http://arxiv.org/abs/2611.21608v1)
-- **Authors:** Shivam Duggal, Zongze Wu, William T. Freeman et al. | **Published:** `2026-11-16`
-- **Core Finding:** Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states ...
-
-### 2. [ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization](http://arxiv.org/abs/2611.21605v1)
-- **Authors:** Huawei Lin, Jinting Liu, Tongyan Wang et al. | **Published:** `2026-11-16`
-- **Core Finding:** Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess...
-
-### 3. [Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction](http://arxiv.org/abs/2611.21602v1)
-- **Authors:** Ilia Azizi, Frederick Iat-Hin Tam, Marc-Olivier Boldi et al. | **Published:** `2026-11-16`
-- **Core Finding:** The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and ...
-
+> No new papers indexed today. Check back tomorrow!
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
 
