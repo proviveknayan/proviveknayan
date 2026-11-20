@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-19***
+*Intelligence snapshot for **2026-11-20***
 
-### 1. [Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems](http://arxiv.org/abs/2611.24932v1)
-- **Authors:** Priyanka Sinha, Sugam Pandey | **Published:** `2026-11-18`
-- **Core Finding:** When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of...
+### 1. [RL Post-Training in Diffusion Transformers Is Activation Steering](http://arxiv.org/abs/2611.26627v1)
+- **Authors:** Tuna Han Salih Meral, Kaan Oktay, Alec Helbling et al. | **Published:** `2026-11-19`
+- **Core Finding:** Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a nat...
 
-### 2. [Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem](http://arxiv.org/abs/2611.24927v1)
-- **Authors:** Sarah H. Cen, Lindsey A. Gailmard, Joohan Kim et al. | **Published:** `2026-11-18`
-- **Core Finding:** AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. ...
+### 2. [PlayCraft: Designing Engaging Games from Agent Play Experience](http://arxiv.org/abs/2611.26624v1)
+- **Authors:** Weihao Cheng | **Published:** `2026-11-19`
+- **Core Finding:** Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play...
 
-### 3. [Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses](http://arxiv.org/abs/2611.24924v1)
-- **Authors:** Jiahang Lin, Jiahao Chen, Yiding Wang et al. | **Published:** `2026-11-18`
-- **Core Finding:** Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify t...
+### 3. [TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming](http://arxiv.org/abs/2611.26619v1)
+- **Authors:** Jinbin Luo, Xiaozhe Yao, Shang Yang et al. | **Published:** `2026-11-19`
+- **Core Finding:** Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips wi...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
