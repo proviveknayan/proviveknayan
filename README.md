@@ -15,7 +15,7 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-21***
+*Intelligence snapshot for **2026-11-22***
 
 ### 1. [RL Post-Training in Diffusion Transformers Is Activation Steering](http://arxiv.org/abs/2611.26627v1)
 - **Authors:** Tuna Han Salih Meral, Kaan Oktay, Alec Helbling et al. | **Published:** `2026-11-19`
