@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-22***
+*Intelligence snapshot for **2026-11-24***
 
-### 1. [RL Post-Training in Diffusion Transformers Is Activation Steering](http://arxiv.org/abs/2611.26627v1)
-- **Authors:** Tuna Han Salih Meral, Kaan Oktay, Alec Helbling et al. | **Published:** `2026-11-19`
-- **Core Finding:** Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a nat...
+### 1. [Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action](http://arxiv.org/abs/2611.31240v1)
+- **Authors:** Seongchan Kim, Soowon Son, Sangoh Kim et al. | **Published:** `2026-11-23`
+- **Core Finding:** Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understan...
 
-### 2. [PlayCraft: Designing Engaging Games from Agent Play Experience](http://arxiv.org/abs/2611.26624v1)
-- **Authors:** Weihao Cheng | **Published:** `2026-11-19`
-- **Core Finding:** Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play...
+### 2. [Let Vision-Language Models Generate Images through Their Representations](http://arxiv.org/abs/2611.31237v1)
+- **Authors:** JB Kim, Byungwoo Jeon, Kyungmin Lee et al. | **Published:** `2026-11-23`
+- **Core Finding:** Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal kno...
 
-### 3. [TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming](http://arxiv.org/abs/2611.26619v1)
-- **Authors:** Jinbin Luo, Xiaozhe Yao, Shang Yang et al. | **Published:** `2026-11-19`
-- **Core Finding:** Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips wi...
+### 3. [TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming](http://arxiv.org/abs/2611.31233v1)
+- **Authors:** Hani Alomari, Md Atabuzzaman, Chris Thomas | **Published:** `2026-11-23`
+- **Core Finding:** CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap. Retrieval fails when wrong matches, or hard negatives, outrank the correct one, and the gap is ...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
