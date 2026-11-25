@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-24***
+*Intelligence snapshot for **2026-11-25***
 
-### 1. [Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action](http://arxiv.org/abs/2611.31240v1)
-- **Authors:** Seongchan Kim, Soowon Son, Sangoh Kim et al. | **Published:** `2026-11-23`
-- **Core Finding:** Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understan...
+### 1. [OmniAct: One Policy, One Million Embodiments](http://arxiv.org/abs/2611.33158v1)
+- **Authors:** Xiang Fan, Yuheng Wang, Jiayuan Yan et al. | **Published:** `2026-11-24`
+- **Core Finding:** A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not nece...
 
-### 2. [Let Vision-Language Models Generate Images through Their Representations](http://arxiv.org/abs/2611.31237v1)
-- **Authors:** JB Kim, Byungwoo Jeon, Kyungmin Lee et al. | **Published:** `2026-11-23`
-- **Core Finding:** Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal kno...
+### 2. [BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles](http://arxiv.org/abs/2611.33151v1)
+- **Authors:** Yuwei Yang, Xiaoxiao Sun, Alejandro Lozano et al. | **Published:** `2026-11-24`
+- **Core Finding:** The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing da...
 
-### 3. [TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming](http://arxiv.org/abs/2611.31233v1)
-- **Authors:** Hani Alomari, Md Atabuzzaman, Chris Thomas | **Published:** `2026-11-23`
-- **Core Finding:** CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap. Retrieval fails when wrong matches, or hard negatives, outrank the correct one, and the gap is ...
+### 3. [iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction](http://arxiv.org/abs/2611.33141v1)
+- **Authors:** Vansh Kapoor, Max Sobol Mark, Sreyas Venkataraman et al. | **Published:** `2026-11-24`
+- **Core Finding:** World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates efficient proxies for future ima...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
