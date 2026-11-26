@@ -15,19 +15,19 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-25***
+*Intelligence snapshot for **2026-11-26***
 
-### 1. [OmniAct: One Policy, One Million Embodiments](http://arxiv.org/abs/2611.33158v1)
-- **Authors:** Xiang Fan, Yuheng Wang, Jiayuan Yan et al. | **Published:** `2026-11-24`
-- **Core Finding:** A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not nece...
+### 1. [Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning](http://arxiv.org/abs/2611.34942v1)
+- **Authors:** Yalin E. Sagduyu, Tugba Erpek | **Published:** `2026-11-25`
+- **Core Finding:** End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quan...
 
-### 2. [BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles](http://arxiv.org/abs/2611.33151v1)
-- **Authors:** Yuwei Yang, Xiaoxiao Sun, Alejandro Lozano et al. | **Published:** `2026-11-24`
-- **Core Finding:** The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing da...
+### 2. [Tokenisation is not in APX](http://arxiv.org/abs/2611.34938v1)
+- **Authors:** Violeta Kastreva, Philip Whittington, Dennis Komm et al. | **Published:** `2026-11-25`
+- **Core Finding:** In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under b...
 
-### 3. [iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction](http://arxiv.org/abs/2611.33141v1)
-- **Authors:** Vansh Kapoor, Max Sobol Mark, Sreyas Venkataraman et al. | **Published:** `2026-11-24`
-- **Core Finding:** World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates efficient proxies for future ima...
+### 3. [Can image generation help visual reasoning? An empirical study](http://arxiv.org/abs/2611.34935v1)
+- **Authors:** Xueyang Yu, Yifan Jing, Taiming Lu et al. | **Published:** `2026-11-25`
+- **Core Finding:** Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-...
 
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
