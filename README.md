@@ -15,20 +15,9 @@
 
 <!-- START_DAILY_TIL -->
 ## 🔬 Daily TIL (Curated arXiv & Engineering Pulse)
-*Intelligence snapshot for **2026-11-26***
+*Intelligence snapshot for **2026-11-27***
 
-### 1. [Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning](http://arxiv.org/abs/2611.34942v1)
-- **Authors:** Yalin E. Sagduyu, Tugba Erpek | **Published:** `2026-11-25`
-- **Core Finding:** End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quan...
-
-### 2. [Tokenisation is not in APX](http://arxiv.org/abs/2611.34938v1)
-- **Authors:** Violeta Kastreva, Philip Whittington, Dennis Komm et al. | **Published:** `2026-11-25`
-- **Core Finding:** In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under b...
-
-### 3. [Can image generation help visual reasoning? An empirical study](http://arxiv.org/abs/2611.34935v1)
-- **Authors:** Xueyang Yu, Yifan Jing, Taiming Lu et al. | **Published:** `2026-11-25`
-- **Core Finding:** Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-...
-
+> No new papers indexed today. Check back tomorrow!
 <sub>Daily logs stored in [`data/til/`](./data/til/).</sub>
 <!-- END_DAILY_TIL -->
 
